@@ -1,0 +1,33 @@
+<h1>FineArt.scss</h1>
+
+<p>A dynamic &amp; parametric textured photo frame, in SASS.</p>
+
+<h2>install</h2>
+
+<p>In your html :</p>
+
+<p><code>
+&lt;figure class="item"&gt;
+    &lt;div class="inner"&gt;
+        &lt;img src="http://placekitten.com/g/300/200" /&gt;
+    &lt;/div&gt;
+    &lt;figcaption class="title"&gt;
+        &lt;h1&gt;Title&lt;/h1&gt;
+        You can change the image source as you want the frame will automaticly adjust, and change the frame width and mask width with the Mixin attributes.
+    &lt;/figcaption&gt;
+&lt;/figure&gt;
+</code></p>
+
+<p>In your main .scss file:</p>
+
+<p>```
+@import &lsquo;compass&rsquo;;
+@import &lsquo;xxxURLxxx/_FineArt.scss&rsquo;;</p>
+
+<p>.item{
+    @include fineart(); // 2rem frame &amp; mask by default
+    // OR
+    @include fineart(3rem, 1rem); // 3rem frame &amp; 1rem mask
+}</p>
+
+<p>```</p>
