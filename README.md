@@ -23,7 +23,7 @@ In your main .scss file:
 
 ```
 @import 'compass';
-@import 'xxxURLxxx/_FineArt.scss';
+@import 'xxxURLxxx/_fineart.scss';
 
 .item{
 	@include fineart(); // 2rem frame & mask by default
