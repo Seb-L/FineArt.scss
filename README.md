@@ -5,6 +5,14 @@ A dynamic &amp; parametric textured photo frame, in SASS.
 
 ## install
 
+In Terminal
+
+```
+bower install FineArt.scss
+```
+
+## Using
+
 In your html :
 
 ```
