@@ -5,6 +5,6 @@
     "ignore": [
         ".gitignore",
         "example",
-        "images/bg.jpg"
+        "images",
     ]
 }
