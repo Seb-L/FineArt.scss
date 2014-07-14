@@ -44,3 +44,8 @@ In your main .scss file:
 ## Demo
 
 [http://codepen.io/SebL/pen/ACjDg](http://codepen.io/SebL/pen/ACjDg)
+
+## To do
+
+- More materials for frame, and colors for masks.
+- Material selection & mask color selection as mixin attributes
