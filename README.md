@@ -40,3 +40,7 @@ In your main .scss file:
 }
 
 ```
+
+## Demo
+
+[http://codepen.io/SebL/pen/ACjDg](http://codepen.io/SebL/pen/ACjDg)
