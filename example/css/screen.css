@@ -1,0 +1,219 @@
+@import url("http://fonts.googleapis.com/css?family=Open+Sans:400,300");
+/* line 5, ../../../../../../../../Applications/CodeKit.app/Contents/Resources/engines/compass/compass-core/stylesheets/compass/reset/_utilities.scss */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  font-size: 100%;
+  vertical-align: baseline; }
+
+/* line 22, ../../../../../../../../Applications/CodeKit.app/Contents/Resources/engines/compass/compass-core/stylesheets/compass/reset/_utilities.scss */
+html {
+  line-height: 1; }
+
+/* line 24, ../../../../../../../../Applications/CodeKit.app/Contents/Resources/engines/compass/compass-core/stylesheets/compass/reset/_utilities.scss */
+ol, ul {
+  list-style: none; }
+
+/* line 26, ../../../../../../../../Applications/CodeKit.app/Contents/Resources/engines/compass/compass-core/stylesheets/compass/reset/_utilities.scss */
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+/* line 28, ../../../../../../../../Applications/CodeKit.app/Contents/Resources/engines/compass/compass-core/stylesheets/compass/reset/_utilities.scss */
+caption, th, td {
+  text-align: left;
+  font-weight: normal;
+  vertical-align: middle; }
+
+/* line 30, ../../../../../../../../Applications/CodeKit.app/Contents/Resources/engines/compass/compass-core/stylesheets/compass/reset/_utilities.scss */
+q, blockquote {
+  quotes: none; }
+  /* line 103, ../../../../../../../../Applications/CodeKit.app/Contents/Resources/engines/compass/compass-core/stylesheets/compass/reset/_utilities.scss */
+  q:before, q:after, blockquote:before, blockquote:after {
+    content: "";
+    content: none; }
+
+/* line 32, ../../../../../../../../Applications/CodeKit.app/Contents/Resources/engines/compass/compass-core/stylesheets/compass/reset/_utilities.scss */
+a img {
+  border: none; }
+
+/* line 116, ../../../../../../../../Applications/CodeKit.app/Contents/Resources/engines/compass/compass-core/stylesheets/compass/reset/_utilities.scss */
+article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary {
+  display: block; }
+
+/* line 9, ../scss/screen.scss */
+body {
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  -webkit-background-size: cover;
+  background-size: cover;
+  background-image: url(../../images/bg.jpg);
+  text-align: center;
+  padding-top: 4rem;
+  font-family: 'Open Sans', sans-serif;
+  color: #acacac; }
+
+/* line 17, ../scss/screen.scss */
+h1 {
+  font-size: 3rem;
+  color: white; }
+
+/* line 22, ../scss/screen.scss */
+.item {
+  list-style-type: none;
+  position: relative;
+  display: inline-block;
+  background-color: black;
+  padding: 2rem;
+  -moz-box-shadow: rgba(0, 0, 0, 0.7) 0 1rem 2rem 0;
+  -webkit-box-shadow: rgba(0, 0, 0, 0.7) 0 1rem 2rem 0;
+  box-shadow: rgba(0, 0, 0, 0.7) 0 1rem 2rem 0;
+  margin: 1rem; }
+  /* line 14, ../../_fineart.scss */
+  .item:before, .item:after {
+    content: ' ';
+    display: block;
+    background-image: url(https://dl.dropboxusercontent.com/u/20104014/codepen/frame-h.png);
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    -webkit-background-size: cover;
+    background-size: cover;
+    position: absolute;
+    left: 0;
+    height: 2rem;
+    width: 100%; }
+  /* line 24, ../../_fineart.scss */
+  .item:before {
+    background-position: top center;
+    top: 0; }
+  /* line 28, ../../_fineart.scss */
+  .item:after {
+    background-position: bottom center;
+    bottom: 0; }
+  /* line 33, ../../_fineart.scss */
+  .item .inner {
+    position: relative;
+    padding: 2rem;
+    background-color: white;
+    -moz-box-shadow: rgba(0, 0, 0, 0.7) 0 0 1.5rem 0 inset;
+    -webkit-box-shadow: rgba(0, 0, 0, 0.7) 0 0 1.5rem 0 inset;
+    box-shadow: rgba(0, 0, 0, 0.7) 0 0 1.5rem 0 inset; }
+    /* line 39, ../../_fineart.scss */
+    .item .inner:before, .item .inner:after {
+      content: ' ';
+      background-image: url(https://dl.dropboxusercontent.com/u/20104014/codepen/frame-v.png);
+      display: block;
+      -moz-background-size: cover;
+      -o-background-size: cover;
+      -webkit-background-size: cover;
+      background-size: cover;
+      position: absolute;
+      top: -2rem;
+      width: 2rem;
+      height: calc(100% + 2rem*2); }
+    /* line 49, ../../_fineart.scss */
+    .item .inner:before {
+      background-position: left;
+      left: -2rem; }
+    /* line 53, ../../_fineart.scss */
+    .item .inner:after {
+      background-position: right;
+      right: -2rem; }
+    /* line 58, ../../_fineart.scss */
+    .item .inner img {
+      display: block;
+      border: 1px solid rgba(0, 0, 0, 0.2); }
+  /* line 64, ../../_fineart.scss */
+  .item .title {
+    text-align: left;
+    position: absolute;
+    left: 0;
+    margin-top: calc(2rem + 1.5rem);
+    line-height: 1.5rem; }
+
+/* line 26, ../scss/screen.scss */
+.itemBis {
+  list-style-type: none;
+  position: relative;
+  display: inline-block;
+  background-color: black;
+  padding: 1rem;
+  -moz-box-shadow: rgba(0, 0, 0, 0.7) 0 1rem 2rem 0;
+  -webkit-box-shadow: rgba(0, 0, 0, 0.7) 0 1rem 2rem 0;
+  box-shadow: rgba(0, 0, 0, 0.7) 0 1rem 2rem 0;
+  margin: 1rem; }
+  /* line 14, ../../_fineart.scss */
+  .itemBis:before, .itemBis:after {
+    content: ' ';
+    display: block;
+    background-image: url(https://dl.dropboxusercontent.com/u/20104014/codepen/frame-h.png);
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    -webkit-background-size: cover;
+    background-size: cover;
+    position: absolute;
+    left: 0;
+    height: 1rem;
+    width: 100%; }
+  /* line 24, ../../_fineart.scss */
+  .itemBis:before {
+    background-position: top center;
+    top: 0; }
+  /* line 28, ../../_fineart.scss */
+  .itemBis:after {
+    background-position: bottom center;
+    bottom: 0; }
+  /* line 33, ../../_fineart.scss */
+  .itemBis .inner {
+    position: relative;
+    padding: 3rem;
+    background-color: white;
+    -moz-box-shadow: rgba(0, 0, 0, 0.7) 0 0 1.5rem 0 inset;
+    -webkit-box-shadow: rgba(0, 0, 0, 0.7) 0 0 1.5rem 0 inset;
+    box-shadow: rgba(0, 0, 0, 0.7) 0 0 1.5rem 0 inset; }
+    /* line 39, ../../_fineart.scss */
+    .itemBis .inner:before, .itemBis .inner:after {
+      content: ' ';
+      background-image: url(https://dl.dropboxusercontent.com/u/20104014/codepen/frame-v.png);
+      display: block;
+      -moz-background-size: cover;
+      -o-background-size: cover;
+      -webkit-background-size: cover;
+      background-size: cover;
+      position: absolute;
+      top: -1rem;
+      width: 1rem;
+      height: calc(100% + 1rem*2); }
+    /* line 49, ../../_fineart.scss */
+    .itemBis .inner:before {
+      background-position: left;
+      left: -1rem; }
+    /* line 53, ../../_fineart.scss */
+    .itemBis .inner:after {
+      background-position: right;
+      right: -1rem; }
+    /* line 58, ../../_fineart.scss */
+    .itemBis .inner img {
+      display: block;
+      border: 1px solid rgba(0, 0, 0, 0.2); }
+  /* line 64, ../../_fineart.scss */
+  .itemBis .title {
+    text-align: left;
+    position: absolute;
+    left: 0;
+    margin-top: calc(1rem + 1.5rem);
+    line-height: 1.5rem; }

@@ -1,0 +1,14 @@
+@import "compass/reset";
+@import "compass";
+
+@import "../_fineart.scss";
+
+
+body{
+	@include background-size(cover);
+	background-image: url(../images/bg.jpg);
+}
+
+.item{
+	@include fineart(4rem);
+}

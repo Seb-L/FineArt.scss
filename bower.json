@@ -1,0 +1,10 @@
+{
+    "name": "fineArt.scss",
+    "version": "0.0.1",
+    "main": "/",
+    "ignore": [
+        ".gitignore",
+        "example",
+        "images/bg.jpg"
+    ]
+}

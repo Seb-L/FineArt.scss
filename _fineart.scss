@@ -1,0 +1,71 @@
+// FineArt.scss
+// Author : Sebastien Lombard
+// Twitter : @EnglarSeb
+// Github : https://github.com/Englar/FineArt.scss
+
+@mixin fineart($frame: 2rem, $mask: 2rem){
+  list-style-type: none;
+  position: relative;
+  display: inline-block;
+  background-color: black;
+  padding: $frame;
+  @include box-shadow(rgba(black, 0.7) 0 1rem 2rem 0);
+
+  &:before, &:after{
+    content: ' ';
+    display: block;
+    background-image: url(https://dl.dropboxusercontent.com/u/20104014/codepen/frame-h.png);
+    @include background-size(cover);
+    position: absolute;
+    left:0;
+    height: $frame;
+    width: 100%;
+  }
+  &:before{
+    background-position: top center;
+    top:0;
+  }
+  &:after{
+    background-position: bottom center;
+    bottom:0;
+  }
+
+  .inner{
+    position: relative;
+    padding: $mask;
+    background-color: white;
+    @include box-shadow(rgba(black, 0.7) 0 0 1.5rem 0 inset);
+    
+    &:before, &:after{
+      content: ' ';
+      background-image: url(https://dl.dropboxusercontent.com/u/20104014/codepen/frame-v.png);
+      display: block;
+      @include background-size(cover);
+      position: absolute;
+      top: -$frame;
+      width: $frame;
+     height: calc(100% + #{$frame}*2);
+    }
+    &:before{
+      background-position: left ;
+      left: -$frame;
+    }
+    &:after{
+      background-position: right ;
+      right: -$frame;
+    }
+
+    img{
+      display: block;
+      border: 1px solid rgba(black, 0.2);
+    }
+  }
+
+  .title{
+    text-align: left;
+    position: absolute;
+    left: 0;
+    margin-top: calc(#{$frame} + 1.5rem);
+    line-height: 1.5rem;
+  }
+}
