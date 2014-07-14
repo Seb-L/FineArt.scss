@@ -14,7 +14,7 @@
   &:before, &:after{
     content: ' ';
     display: block;
-    background-image: url(https://dl.dropboxusercontent.com/u/20104014/codepen/frame-h.png);
+    background-image: url(https://raw.githubusercontent.com/Englar/FineArt.scss/master/images/frame-h.png);
     @include background-size(cover);
     position: absolute;
     left:0;
@@ -38,7 +38,7 @@
     
     &:before, &:after{
       content: ' ';
-      background-image: url(https://dl.dropboxusercontent.com/u/20104014/codepen/frame-v.png);
+      background-image: url(https://raw.githubusercontent.com/Englar/FineArt.scss/master/images/frame-v.png);
       display: block;
       @include background-size(cover);
       position: absolute;

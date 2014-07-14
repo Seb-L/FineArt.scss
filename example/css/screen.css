@@ -87,7 +87,7 @@ h1 {
   .item:before, .item:after {
     content: ' ';
     display: block;
-    background-image: url(https://dl.dropboxusercontent.com/u/20104014/codepen/frame-h.png);
+    background-image: url(https://raw.githubusercontent.com/Englar/FineArt.scss/master/images/frame-h.png);
     -moz-background-size: cover;
     -o-background-size: cover;
     -webkit-background-size: cover;
@@ -115,7 +115,7 @@ h1 {
     /* line 39, ../../_fineart.scss */
     .item .inner:before, .item .inner:after {
       content: ' ';
-      background-image: url(https://dl.dropboxusercontent.com/u/20104014/codepen/frame-v.png);
+      background-image: url(https://raw.githubusercontent.com/Englar/FineArt.scss/master/images/frame-v.png);
       display: block;
       -moz-background-size: cover;
       -o-background-size: cover;
@@ -160,7 +160,7 @@ h1 {
   .itemBis:before, .itemBis:after {
     content: ' ';
     display: block;
-    background-image: url(https://dl.dropboxusercontent.com/u/20104014/codepen/frame-h.png);
+    background-image: url(https://raw.githubusercontent.com/Englar/FineArt.scss/master/images/frame-h.png);
     -moz-background-size: cover;
     -o-background-size: cover;
     -webkit-background-size: cover;
@@ -188,7 +188,7 @@ h1 {
     /* line 39, ../../_fineart.scss */
     .itemBis .inner:before, .itemBis .inner:after {
       content: ' ';
-      background-image: url(https://dl.dropboxusercontent.com/u/20104014/codepen/frame-v.png);
+      background-image: url(https://raw.githubusercontent.com/Englar/FineArt.scss/master/images/frame-v.png);
       display: block;
       -moz-background-size: cover;
       -o-background-size: cover;
